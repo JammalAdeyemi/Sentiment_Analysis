@@ -2,9 +2,7 @@
 
 The `StockTwits Crypto` dataset is a collection of tweets scraped from the `StockTwits` platform, which is a social network for traders and investors to share insights, ideas, and sentiment on stocks, crypto, and other financial instruments. This dataset focuses specifically on the `crypto` market and contains over `2 million tweets` from `2021` to `2022`.
 
-The dataset includes features such as the `username`, the `tweet content`, the `time` and `date` of the tweet, and any associated `hashtags` or `mentions`. The tweets are labeled as either `bullish`, `bearish`, or `neutral` sentiment by the StockTwits community. The dataset also includes a `confidence score` for each sentiment label.
-
-Researchers can use this dataset to conduct `sentiment analysis` on the crypto market and gain insights into public opinion on specific cryptocurrencies or the market as a whole. The dataset can be processed using `NLP` or `sentiment analysis` techniques to classify the sentiment expressed in each tweet.
+The `StockTwits Crypto` dataset includes feature such as `text` and `label`. The tweets are labeled as "Bearish" : 0, "Neutral": 1, "Bullish": 2 sentiment by the provider
 
 **Note:** This dataset is intended for learning and personal portfolio project purposes only and should not be used for trading or investment decisions.
 
@@ -13,6 +11,11 @@ We have 2 folders in the projects
 
 1. `Data`: Contains all the datasets used in the project.
 2. `Notebooks`: Contains both `Analysis` and `Modelling` notebook.
+
+## About Datasets
+The data used in this study was obtained from the `huggingface` repository, curated by `Mikolaj Kulakowski`. Specifically, we utilized the `StockTwits-crypto` dataset, which comprises all `cryptocurrency-related` posts from the `StockTwits` website during the period spanning from November 1st, 2021 to June 15th, 2022.
+
+https://huggingface.co/datasets/ElKulako/stocktwits-crypto
 
 ## Tools and Technologies
 The project was implemented using Python and the following libraries:
